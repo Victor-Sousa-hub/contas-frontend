@@ -62,7 +62,8 @@ export default {
       mes: new Date().getMonth() + 1,
     });
 
-    const API_URL = process.env.VUE_APP_API_URL || "https://contas-api-knswlw.fly.dev/api";
+    const API_URL =
+      process.env.VUE_APP_API_URL || "https://contas-api-knswlw.fly.dev/api";
 
     const carregarQuadros = async () => {
       try {
