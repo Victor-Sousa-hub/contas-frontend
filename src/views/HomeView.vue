@@ -324,7 +324,7 @@ export default {
     const flashMessage = ref(null);
     const contaEditando = ref(null);
 
-    const API_URL = process.env.VUE_APP_API_URL || "http://localhost:5000/api";
+    const API_URL = process.env.VUE_APP_API_URL || "https://contas-api-knswlw.fly.dev/api";
 
     const formSalarios = reactive({
       salario1: 0,
